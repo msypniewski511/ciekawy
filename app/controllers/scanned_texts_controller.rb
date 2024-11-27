@@ -3,7 +3,7 @@ class ScannedTextsController < ApplicationController
 
   # GET /scanned_texts or /scanned_texts.json
   def index
-    @scanned_texts = ScannedText.last.content.scan(/\b\d{8}\b/)
+    @scanned_texts = ScannedText.last.nil? ? ScannedText.all : ScannedText.last.content.scan(/\b\d{8}\b/) 
   end
 
   # GET /scanned_texts/1 or /scanned_texts/1.json

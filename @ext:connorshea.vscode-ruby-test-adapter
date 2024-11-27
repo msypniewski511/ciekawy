@@ -209,3 +209,5 @@
 [2024-11-27 19:54:38.493] [INFO] Sending autorun event
 [2024-11-27 19:55:54.577] [INFO] /home/maciej/ruby/barcode_scanner_app/render.yaml was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
 [2024-11-27 19:55:54.577] [INFO] Sending autorun event
+[2024-11-27 20:14:05.002] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 20:14:05.002] [INFO] Sending autorun event
