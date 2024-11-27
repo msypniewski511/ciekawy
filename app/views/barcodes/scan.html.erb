@@ -1,0 +1,121 @@
+  <h1>Barcode Scanner</h1>
+
+  <!-- Buttons to control the scanner -->
+  <button id="start-button">Start Scan</button>
+  <button id="stop-button" disabled>Stop Scan</button>
+
+  <!-- Video feed for barcode detection -->
+  <video autoplay style="width: 100%; max-height: 300px;"></video>
+
+  <!-- Placeholder to display detected barcode -->
+  <p id="barcode">Waiting...</p>
+
+  <script>
+    // WebAssembly polyfill for some browsers
+    try { window['BarcodeDetector'].getSupportedFormats() }
+    catch { window['BarcodeDetector'] = barcodeDetectorPolyfill.BarcodeDetectorPolyfill }
+
+    let video;
+    let barcodeDetector;
+    let scanning = false; // To control the scanning loop
+    let stream = null; // For stopping the video feed
+
+    async function startBarcodeScanner() {
+      // Initialize video and BarcodeDetector
+      video = document.querySelector('video');
+      barcodeDetector = new BarcodeDetector({ formats: ["ean_13", "ean_8", "upc_a", "upc_e"] });
+
+      // Get a stream for the rear camera
+      stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
+      video.srcObject = stream;
+
+      // Set scanning status to true
+      scanning = true;
+
+      // Start scanning loop
+      while (scanning) {
+        try {
+          // Detect barcodes in the current video frame
+          const barcodes = await barcodeDetector.detect(video);
+
+          // Continue loop if no barcode was found
+          if (barcodes.length === 0) {
+            await new Promise(r => setTimeout(r, 50));
+            continue;
+          }
+
+          // Handle the first detected barcode
+          const barcodeValue = barcodes[0].rawValue;
+          document.getElementById("barcode").innerText = barcodeValue;
+
+          // Send to API
+          sendBarcodeToAPI(barcodeValue)
+
+          // Play a sound signal for successful detection
+          playSignalSound();
+
+          // Pause scanning for a short time (e.g., 2 seconds)
+          scanning = false;
+          setTimeout(() => {
+            document.getElementById("start-button").disabled = false;
+            document.getElementById("stop-button").disabled = true;
+            document.getElementById("barcode").innerText = "Scan complete. Press Start to scan again.";
+          }, 2000);
+
+        } catch (error) {
+          // Handle any errors in the detection process
+          await new Promise(r => setTimeout(r, 200));
+        }
+      }
+    }
+
+    function stopBarcodeScanner() {
+      scanning = false;
+
+      // Stop video stream if active
+      if (stream) {
+        const tracks = stream.getTracks();
+        tracks.forEach(track => track.stop());
+        stream = null;
+      }
+
+      document.getElementById("start-button").disabled = false;
+      document.getElementById("stop-button").disabled = true;
+      document.getElementById("barcode").innerText = "Scanner stopped. Press Start to scan.";
+    }
+
+    function playSignalSound() {
+      // Play a simple beep sound using the Web Audio API
+      const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+      const oscillator = audioContext.createOscillator();
+      oscillator.type = "sine"; // Simple sine wave
+      oscillator.frequency.setValueAtTime(440, audioContext.currentTime); // A4 note (440 Hz)
+      oscillator.connect(audioContext.destination);
+      oscillator.start();
+      oscillator.stop(audioContext.currentTime + 0.2); // Play for 0.2 seconds
+    }
+
+    function sendBarcodeToAPI(barcode){
+      fetch("/barcodes/process", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-CSRF-Token": document.querySelector("meta[name=csrf-token]").content,
+        },
+        body: JSON.stringify({ barcode_data: barcode }),
+      }).then(response => response.json())
+        .then(result => console.log(result))
+        .catch(error => console.error('Error:', error));
+    }
+
+    // Button event listeners
+    document.getElementById("start-button").addEventListener("click", async () => {
+      document.getElementById("start-button").disabled = true;
+      document.getElementById("stop-button").disabled = false;
+      document.getElementById("barcode").innerText = "Scanning...";
+      await startBarcodeScanner();
+    });
+
+    document.getElementById("stop-button").addEventListener("click", stopBarcodeScanner);
+
+  </script>

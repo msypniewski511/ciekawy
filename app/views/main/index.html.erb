@@ -1,0 +1,36 @@
+<div class="bg-light p-5 text-center">
+  <h2>My First Bootstrap Page</h2>
+  <p>Some Bootstrap buttons:</p>
+  <%= link_to 'Scan document', scanned_texts_path, class: "btn btn-primary" %>
+  <%= link_to 'Scan', barcodes_scan_path, class: "btn btn-primary" %>
+</div>
+
+<h1>Barcode Generator</h1>
+
+  <!-- Input for 8-digit code -->
+  <input type="text" id="barcode-input" placeholder="Enter 8-digit code" maxlength="13" />
+  <button id="generate-button">Generate Barcode</button>
+
+  <!-- SVG for the generated barcode -->
+  <svg id="barcode"></svg>
+
+  <script>
+    document.getElementById("generate-button").addEventListener("click", function () {
+      const code = document.getElementById("barcode-input").value;
+      alert(code)
+
+      // Validate the input (must be 8 digits)
+      //if (/^\d{8}$/.test(code)) {
+      if (true){
+        JsBarcode("#barcode", code, {
+          format: "EAN13",
+          lineColor: "#0aa",
+          width:4,
+          height:40,
+          displayValue: true
+        });
+      } else {
+        alert("Please enter a valid 8-digit code.");
+      }
+    });
+  </script>

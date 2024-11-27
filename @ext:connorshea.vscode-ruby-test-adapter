@@ -1,0 +1,211 @@
+[2024-11-27 13:27:33.119] [INFO] Test Explorer found
+[2024-11-27 13:27:33.120] [INFO] Creating adapter for /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 13:27:33.120] [INFO] Initializing Ruby adapter
+[2024-11-27 13:27:33.121] [INFO] Registering adapter for /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 13:27:33.122] [INFO] Loading Ruby tests...
+[2024-11-27 13:27:33.123] [INFO] Loading RSpec tests...
+[2024-11-27 13:27:33.123] [INFO] Running dry-run of RSpec test suite with the following command: rspec --pattern './spec//**/*_test.rb,./spec//**/test_*.rb,./spec//**/*_spec.rb' --require /home/maciej/.vscode/extensions/connorshea.vscode-ruby-test-adapter-0.9.2/custom_formatter.rb --format CustomFormatter --order defined --dry-run
+[2024-11-27 13:27:33.128] [INFO] Initialization finished
+[2024-11-27 13:27:33.801] [DEBUG] Passing raw output from dry-run into getJsonFromOutput.
+[2024-11-27 13:27:33.802] [DEBUG] START_OF_TEST_JSON{"version":"3.13.2","messages":["No examples found."],"examples":[],"summary":{"duration":6.0064e-05,"example_count":0,"failure_count":0,"pending_count":0,"errors_outside_of_examples_count":0},"summary_line":"0 examples, 0 failures"}END_OF_TEST_JSON
+
+[2024-11-27 13:27:33.802] [DEBUG] Parsing the below JSON:
+[2024-11-27 13:27:33.802] [DEBUG] {"version":"3.13.2","messages":["No examples found."],"examples":[],"summary":{"duration":6.0064e-05,"example_count":0,"failure_count":0,"pending_count":0,"errors_outside_of_examples_count":0},"summary_line":"0 examples, 0 failures"}
+[2024-11-27 13:28:03.449] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/barcodes_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 13:28:03.450] [INFO] Sending autorun event
+[2024-11-27 13:28:47.687] [INFO] /home/maciej/ruby/barcode_scanner_app/config/routes.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 13:28:47.687] [INFO] Sending autorun event
+[2024-11-27 13:29:34.749] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 13:29:34.750] [INFO] Sending autorun event
+[2024-11-27 14:01:09.917] [INFO] /home/maciej/ruby/barcode_scanner_app/config/environments/development.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:01:09.917] [INFO] Sending autorun event
+[2024-11-27 14:03:12.498] [INFO] /home/maciej/ruby/barcode_scanner_app/config/routes.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:03:12.498] [INFO] Sending autorun event
+[2024-11-27 14:07:31.313] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:07:31.314] [INFO] Sending autorun event
+[2024-11-27 14:20:54.174] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:20:54.175] [INFO] Sending autorun event
+[2024-11-27 14:22:38.537] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:22:38.537] [INFO] Sending autorun event
+[2024-11-27 14:26:41.864] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:26:41.864] [INFO] Sending autorun event
+[2024-11-27 14:32:38.951] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:32:38.951] [INFO] Sending autorun event
+[2024-11-27 14:51:25.758] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:51:25.758] [INFO] Sending autorun event
+[2024-11-27 14:51:54.303] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:51:54.303] [INFO] Sending autorun event
+[2024-11-27 14:53:45.630] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:53:45.630] [INFO] Sending autorun event
+[2024-11-27 14:59:41.291] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 14:59:41.291] [INFO] Sending autorun event
+[2024-11-27 15:51:43.790] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 15:51:43.791] [INFO] Sending autorun event
+[2024-11-27 15:55:28.446] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 15:55:28.446] [INFO] Sending autorun event
+[2024-11-27 16:04:46.085] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/barcodes/scan.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:04:46.085] [INFO] Sending autorun event
+[2024-11-27 16:31:08.357] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:31:08.357] [INFO] Sending autorun event
+[2024-11-27 16:32:31.912] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:32:31.912] [INFO] Sending autorun event
+[2024-11-27 16:34:26.187] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:34:26.188] [INFO] Sending autorun event
+[2024-11-27 16:34:50.479] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:34:50.479] [INFO] Sending autorun event
+[2024-11-27 16:35:11.603] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:35:11.603] [INFO] Sending autorun event
+[2024-11-27 16:38:52.913] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:38:52.913] [INFO] Sending autorun event
+[2024-11-27 16:47:43.342] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:47:43.343] [INFO] Sending autorun event
+[2024-11-27 16:49:56.881] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 16:49:56.882] [INFO] Sending autorun event
+[2024-11-27 18:06:24.826] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:06:24.827] [INFO] Sending autorun event
+[2024-11-27 18:08:23.690] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:08:23.690] [INFO] Sending autorun event
+[2024-11-27 18:09:15.819] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:09:15.819] [INFO] Sending autorun event
+[2024-11-27 18:09:37.762] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:09:37.762] [INFO] Sending autorun event
+[2024-11-27 18:11:12.625] [INFO] /home/maciej/ruby/barcode_scanner_app/app/controllers/scanned_texts_controller.rb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:11:12.625] [INFO] Sending autorun event
+[2024-11-27 18:11:53.449] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:11:53.449] [INFO] Sending autorun event
+[2024-11-27 18:22:34.332] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:22:34.333] [INFO] Sending autorun event
+[2024-11-27 18:23:18.241] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:23:18.241] [INFO] Sending autorun event
+[2024-11-27 18:24:11.573] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:24:11.573] [INFO] Sending autorun event
+[2024-11-27 18:25:24.465] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:25:24.465] [INFO] Sending autorun event
+[2024-11-27 18:25:56.793] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:25:56.793] [INFO] Sending autorun event
+[2024-11-27 18:26:23.805] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:26:23.805] [INFO] Sending autorun event
+[2024-11-27 18:27:50.117] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:27:50.117] [INFO] Sending autorun event
+[2024-11-27 18:30:49.435] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:30:49.435] [INFO] Sending autorun event
+[2024-11-27 18:36:02.729] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:36:02.730] [INFO] Sending autorun event
+[2024-11-27 18:40:53.708] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:40:53.709] [INFO] Sending autorun event
+[2024-11-27 18:41:39.615] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:41:39.615] [INFO] Sending autorun event
+[2024-11-27 18:42:23.404] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:42:23.405] [INFO] Sending autorun event
+[2024-11-27 18:42:56.558] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:42:56.558] [INFO] Sending autorun event
+[2024-11-27 18:44:00.845] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:44:00.845] [INFO] Sending autorun event
+[2024-11-27 18:45:33.421] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:45:33.421] [INFO] Sending autorun event
+[2024-11-27 18:46:34.476] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:46:34.476] [INFO] Sending autorun event
+[2024-11-27 18:46:46.924] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:46:46.924] [INFO] Sending autorun event
+[2024-11-27 18:47:15.186] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:47:15.186] [INFO] Sending autorun event
+[2024-11-27 18:47:52.478] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:47:52.478] [INFO] Sending autorun event
+[2024-11-27 18:49:33.309] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:49:33.309] [INFO] Sending autorun event
+[2024-11-27 18:49:54.634] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:49:54.634] [INFO] Sending autorun event
+[2024-11-27 18:50:09.747] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:50:09.747] [INFO] Sending autorun event
+[2024-11-27 18:53:55.512] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:53:55.513] [INFO] Sending autorun event
+[2024-11-27 18:55:38.787] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:55:38.788] [INFO] Sending autorun event
+[2024-11-27 18:56:01.277] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:56:01.277] [INFO] Sending autorun event
+[2024-11-27 18:56:55.796] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 18:56:55.796] [INFO] Sending autorun event
+[2024-11-27 19:02:49.358] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:02:49.358] [INFO] Sending autorun event
+[2024-11-27 19:03:33.518] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:03:33.519] [INFO] Sending autorun event
+[2024-11-27 19:04:29.379] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:04:29.379] [INFO] Sending autorun event
+[2024-11-27 19:05:14.859] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:05:14.859] [INFO] Sending autorun event
+[2024-11-27 19:05:23.586] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:05:23.586] [INFO] Sending autorun event
+[2024-11-27 19:07:33.304] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:07:33.304] [INFO] Sending autorun event
+[2024-11-27 19:08:17.510] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:08:17.510] [INFO] Sending autorun event
+[2024-11-27 19:08:59.446] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:08:59.446] [INFO] Sending autorun event
+[2024-11-27 19:10:00.501] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:10:00.501] [INFO] Sending autorun event
+[2024-11-27 19:10:05.579] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:10:05.579] [INFO] Sending autorun event
+[2024-11-27 19:12:30.255] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:12:30.255] [INFO] Sending autorun event
+[2024-11-27 19:12:55.864] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:12:55.864] [INFO] Sending autorun event
+[2024-11-27 19:13:35.679] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:13:35.679] [INFO] Sending autorun event
+[2024-11-27 19:14:18.949] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:14:18.949] [INFO] Sending autorun event
+[2024-11-27 19:14:22.139] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:14:22.139] [INFO] Sending autorun event
+[2024-11-27 19:18:01.632] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:18:01.632] [INFO] Sending autorun event
+[2024-11-27 19:18:52.867] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:18:52.867] [INFO] Sending autorun event
+[2024-11-27 19:19:11.135] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:19:11.135] [INFO] Sending autorun event
+[2024-11-27 19:20:53.980] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:20:53.980] [INFO] Sending autorun event
+[2024-11-27 19:21:07.966] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:21:07.966] [INFO] Sending autorun event
+[2024-11-27 19:25:00.548] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:25:00.549] [INFO] Sending autorun event
+[2024-11-27 19:25:34.448] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:25:34.448] [INFO] Sending autorun event
+[2024-11-27 19:29:14.044] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:29:14.044] [INFO] Sending autorun event
+[2024-11-27 19:30:25.157] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:30:25.157] [INFO] Sending autorun event
+[2024-11-27 19:31:33.804] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:31:33.804] [INFO] Sending autorun event
+[2024-11-27 19:33:47.687] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:33:47.688] [INFO] Sending autorun event
+[2024-11-27 19:37:05.399] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:37:05.399] [INFO] Sending autorun event
+[2024-11-27 19:39:37.121] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:39:37.121] [INFO] Sending autorun event
+[2024-11-27 19:40:45.535] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:40:45.535] [INFO] Sending autorun event
+[2024-11-27 19:41:26.786] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:41:26.786] [INFO] Sending autorun event
+[2024-11-27 19:41:57.547] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:41:57.547] [INFO] Sending autorun event
+[2024-11-27 19:44:02.087] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:44:02.087] [INFO] Sending autorun event
+[2024-11-27 19:44:44.123] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:44:44.123] [INFO] Sending autorun event
+[2024-11-27 19:46:02.027] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:46:02.027] [INFO] Sending autorun event
+[2024-11-27 19:46:24.286] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/main/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:46:24.286] [INFO] Sending autorun event
+[2024-11-27 19:50:23.670] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:50:23.670] [INFO] Sending autorun event
+[2024-11-27 19:51:53.869] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:51:53.869] [INFO] Sending autorun event
+[2024-11-27 19:52:31.962] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:52:31.962] [INFO] Sending autorun event
+[2024-11-27 19:52:48.287] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:52:48.288] [INFO] Sending autorun event
+[2024-11-27 19:53:21.135] [INFO] /home/maciej/ruby/barcode_scanner_app/app/views/scanned_texts/index.html.erb was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:53:21.135] [INFO] Sending autorun event
+[2024-11-27 19:54:38.493] [INFO] /home/maciej/ruby/barcode_scanner_app/bin/render-build.sh was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:54:38.493] [INFO] Sending autorun event
+[2024-11-27 19:55:54.577] [INFO] /home/maciej/ruby/barcode_scanner_app/render.yaml was saved - checking if this effects /home/maciej/ruby/barcode_scanner_app
+[2024-11-27 19:55:54.577] [INFO] Sending autorun event

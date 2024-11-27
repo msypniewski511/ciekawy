@@ -1,0 +1,22 @@
+<%= form_with(model: scanned_text) do |form| %>
+  <% if scanned_text.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(scanned_text.errors.count, "error") %> prohibited this scanned_text from being saved:</h2>
+
+      <ul>
+        <% scanned_text.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :content, style: "display: block" %>
+    <%= form.text_area :content %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

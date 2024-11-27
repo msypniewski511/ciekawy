@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @scanned_text %>
+
+<div>
+  <%= link_to "Edit this scanned text", edit_scanned_text_path(@scanned_text) %> |
+  <%= link_to "Back to scanned texts", scanned_texts_path %>
+
+  <%= button_to "Destroy this scanned text", @scanned_text, method: :delete %>
+</div>
